@@ -1,0 +1,25 @@
+{
+  "name": "@autorelease/web",
+  "version": "9.0.0-canary.809.5.f01ecc2",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@autorelease/animated": "link:../../packages/animated",
+    "@autorelease/core": "link:../../packages/core",
+    "@autorelease/shared": "link:../../packages/shared"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^9.1.1",
+    "react-dom": "~16.9.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "publishConfig": {
+    "directory": "dist"
+  }
+}

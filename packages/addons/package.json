@@ -1,0 +1,19 @@
+{
+  "name": "@autorelease/addons",
+  "version": "9.0.0-canary.809.5.f01ecc2",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@autorelease/animated": "link:../animated",
+    "@autorelease/core": "link:../core",
+    "use-memo-one": "^1.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "publishConfig": {
+    "directory": "dist"
+  }
+}

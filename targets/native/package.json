@@ -1,0 +1,24 @@
+{
+  "name": "@autorelease/native",
+  "version": "9.0.0-canary.809.5.f01ecc2",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@autorelease/animated": "link:../../packages/animated",
+    "@autorelease/core": "link:../../packages/core",
+    "@autorelease/shared": "link:../../packages/shared"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-native": ">=0.58"
+  },
+  "devDependencies": {
+    "@types/react-native": "~0.57.0",
+    "react-native": "~0.58.0"
+  },
+  "publishConfig": {
+    "directory": "dist"
+  }
+}

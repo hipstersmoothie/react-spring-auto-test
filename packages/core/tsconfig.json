@@ -1,0 +1,25 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es2017"],
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "shared": ["./node_modules/@autorelease/shared/src"],
+      "shared/*": ["./node_modules/@autorelease/shared/src/*"]
+    },
+    "plugins": [{ "name": "typescript-snapshots-plugin" }],
+    "preserveSymlinks": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "typeRoots": ["../../node_modules/@types", "../../@types"]
+  }
+}

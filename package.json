@@ -1,0 +1,102 @@
+{
+  "name": "@autorelease/lerna",
+  "private": true,
+  "description": "Cross-platform animation engine for React",
+  "keywords": [
+    "animated",
+    "animation",
+    "hooks",
+    "motion",
+    "react",
+    "react-native",
+    "spring",
+    "typescript",
+    "velocity"
+  ],
+  "homepage": "https://github.com/react-spring/react-spring#readme",
+  "bugs": {
+    "url": "https://github.com/react-spring/react-spring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-spring/react-spring.git"
+  },
+  "license": "MIT",
+  "author": "Paul Henschel",
+  "contributors": [
+    "Alec Larson (https://github.com/aleclarson)"
+  ],
+  "sideEffects": false,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "targets/*"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
+  "scripts": {
+    "build": "bic",
+    "clean": "lerna exec --parallel --no-bail -- rimraf node_modules dist .rpt2_cache .bic_cache",
+    "prepare": "node ./scripts/prepare.js && bic && yarn test:ts",
+    "release": "node ./scripts/release.js",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:ts": "cd packages/react-spring && tsc -p . --noEmit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.3.2",
+    "@babel/plugin-transform-modules-commonjs": "7.4.4",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "build-if-changed": "^1.5.0",
+    "chalk": "^2.4.2",
+    "enquirer": "^2.3.2",
+    "execa": "^2.0.4",
+    "fs-extra": "7.0.1",
+    "husky": "1.3.1",
+    "jest": "^24.8.0",
+    "jest-watch-typeahead": "^0.3.1",
+    "lerna": "3.15.0",
+    "meta": "^1.2.19",
+    "mock-raf": "npm:@autorelease/mock-raf",
+    "prettier": "^1.18.2",
+    "pretty-quick": "1.10.0",
+    "react": "~16.9.0",
+    "recrawl-sync": "^1.2.2",
+    "rimraf": "2.6.3",
+    "rollup": "^1.14.4",
+    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-dts": "^1.1.0",
+    "rollup-plugin-node-resolve": "4.0.0",
+    "rollup-plugin-terser": "5.0.0",
+    "rollup-plugin-typescript2": "0.21.1",
+    "sade": "^1.6.1",
+    "sort-package-json": "1.22.1",
+    "spec.ts": "1.1.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "3.6.2",
+    "typescript-rewrite-paths": "^1.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/react-spring"
+  }
+}

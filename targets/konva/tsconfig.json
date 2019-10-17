@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["dom", "es2017"],
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "shared": ["./node_modules/@autorelease/shared/src"],
+      "shared/*": ["./node_modules/@autorelease/shared/src/*"]
+    },
+    "preserveSymlinks": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext"
+  }
+}
