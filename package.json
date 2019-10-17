@@ -13,13 +13,13 @@
     "typescript",
     "velocity"
   ],
-  "homepage": "https://github.com/react-spring/react-spring#readme",
+  "homepage": "https://github.com/hipstersmoothie/react-spring-auto-test#readme",
   "bugs": {
-    "url": "https://github.com/react-spring/react-spring/issues"
+    "url": "https://github.com/hipstersmoothie/react-spring-auto-test/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-spring/react-spring.git"
+    "url": "https://github.com/hipstersmoothie/react-spring-auto-test.git"
   },
   "license": "MIT",
   "author": "Paul Henschel",
