@@ -1,11 +1,11 @@
 {
   "name": "@autorelease/konva",
-  "version": "9.0.4",
+  "version": "9.0.5",
   "main": "src/index.ts",
   "dependencies": {
-    "@autorelease/animated": "^9.0.4",
-    "@autorelease/core": "^9.0.4",
-    "@autorelease/shared": "^9.0.4"
+    "@autorelease/animated": "^9.0.5",
+    "@autorelease/core": "^9.0.5",
+    "@autorelease/shared": "^9.0.5"
   },
   "peerDependencies": {
     "konva": ">=2.6",
