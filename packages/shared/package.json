@@ -1,6 +1,6 @@
 {
   "name": "@autorelease/shared",
-  "version": "9.0.5",
+  "version": "9.0.6",
   "description": "Globals and shared modules",
   "main": "src/index.ts",
   "scripts": {

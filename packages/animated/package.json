@@ -1,13 +1,13 @@
 {
   "name": "@autorelease/animated",
-  "version": "9.0.5",
+  "version": "9.0.6",
   "description": "Animated component props for React",
   "main": "src/index.ts",
   "scripts": {
     "build": "rollup -c"
   },
   "dependencies": {
-    "@autorelease/shared": "^9.0.5"
+    "@autorelease/shared": "^9.0.6"
   },
   "publishConfig": {
     "directory": "dist"

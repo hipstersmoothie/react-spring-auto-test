@@ -1,10 +1,10 @@
 {
   "name": "@autorelease/addons",
-  "version": "9.0.5",
+  "version": "9.0.6",
   "main": "src/index.ts",
   "dependencies": {
-    "@autorelease/animated": "^9.0.5",
-    "@autorelease/core": "^9.0.5",
+    "@autorelease/animated": "^9.0.6",
+    "@autorelease/core": "^9.0.6",
     "use-memo-one": "^1.1.0"
   },
   "peerDependencies": {

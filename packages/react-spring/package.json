@@ -1,15 +1,15 @@
 {
   "name": "@autorelease/react-spring",
-  "version": "9.0.5",
+  "version": "9.0.6",
   "main": "src/web.ts",
   "dependencies": {
-    "@autorelease/addons": "^9.0.5",
-    "@autorelease/core": "^9.0.5",
-    "@autorelease/konva": "^9.0.5",
-    "@autorelease/native": "^9.0.5",
-    "@autorelease/three": "^9.0.5",
-    "@autorelease/web": "^9.0.5",
-    "@autorelease/zdog": "^9.0.5"
+    "@autorelease/addons": "^9.0.6",
+    "@autorelease/core": "^9.0.6",
+    "@autorelease/konva": "^9.0.6",
+    "@autorelease/native": "^9.0.6",
+    "@autorelease/three": "^9.0.6",
+    "@autorelease/web": "^9.0.6",
+    "@autorelease/zdog": "^9.0.6"
   },
   "scripts": {
     "build": "rollup -c"
