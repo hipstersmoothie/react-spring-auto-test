@@ -1,6 +1,6 @@
 {
   "name": "@autorelease/shared",
-  "version": "9.0.2-canary-test.1.0",
+  "version": "9.0.2",
   "description": "Globals and shared modules",
   "main": "src/index.ts",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "publishConfig": {
     "directory": "dist"
-  }
+  },
+  "gitHead": "faeb7c2f52f4fa1aeaae41669a0dc03703abbf71"
 }

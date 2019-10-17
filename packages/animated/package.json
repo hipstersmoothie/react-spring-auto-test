@@ -1,15 +1,16 @@
 {
   "name": "@autorelease/animated",
-  "version": "9.0.2-canary-test.1.0",
+  "version": "9.0.2",
   "description": "Animated component props for React",
   "main": "src/index.ts",
   "scripts": {
     "build": "rollup -c"
   },
   "dependencies": {
-    "@autorelease/shared": "link:../shared"
+    "@autorelease/shared": "^9.0.2"
   },
   "publishConfig": {
     "directory": "dist"
-  }
+  },
+  "gitHead": "faeb7c2f52f4fa1aeaae41669a0dc03703abbf71"
 }

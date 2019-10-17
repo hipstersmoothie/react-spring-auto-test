@@ -1,11 +1,11 @@
 {
   "name": "@autorelease/konva",
-  "version": "9.0.2-canary-test.1.0",
+  "version": "9.0.2",
   "main": "src/index.ts",
   "dependencies": {
-    "@autorelease/animated": "link:../../packages/animated",
-    "@autorelease/core": "link:../../packages/core",
-    "@autorelease/shared": "link:../../packages/shared"
+    "@autorelease/animated": "^9.0.2",
+    "@autorelease/core": "^9.0.2",
+    "@autorelease/shared": "^9.0.2"
   },
   "peerDependencies": {
     "konva": ">=2.6",
@@ -21,5 +21,6 @@
   },
   "publishConfig": {
     "directory": "dist"
-  }
+  },
+  "gitHead": "faeb7c2f52f4fa1aeaae41669a0dc03703abbf71"
 }

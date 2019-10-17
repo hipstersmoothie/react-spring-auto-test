@@ -1,20 +1,21 @@
 {
   "name": "@autorelease/react-spring",
-  "version": "9.0.2-canary-test.1.0",
+  "version": "9.0.2",
   "main": "src/web.ts",
   "dependencies": {
-    "@autorelease/addons": "link:../addons",
-    "@autorelease/core": "link:../core",
-    "@autorelease/konva": "link:../../targets/konva",
-    "@autorelease/native": "link:../../targets/native",
-    "@autorelease/three": "link:../../targets/three",
-    "@autorelease/web": "link:../../targets/web",
-    "@autorelease/zdog": "link:../../targets/zdog"
+    "@autorelease/addons": "^9.0.2",
+    "@autorelease/core": "^9.0.2",
+    "@autorelease/konva": "^9.0.2",
+    "@autorelease/native": "^9.0.2",
+    "@autorelease/three": "^9.0.2",
+    "@autorelease/web": "^9.0.2",
+    "@autorelease/zdog": "^9.0.2"
   },
   "scripts": {
     "build": "rollup -c"
   },
   "publishConfig": {
     "directory": "dist"
-  }
+  },
+  "gitHead": "faeb7c2f52f4fa1aeaae41669a0dc03703abbf71"
 }
