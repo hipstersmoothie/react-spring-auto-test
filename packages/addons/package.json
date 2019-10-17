@@ -1,6 +1,6 @@
 {
   "name": "@autorelease/addons",
-  "version": "9.0.1-canary-test.1.0",
+  "version": "9.0.2-canary-test.1.0",
   "main": "src/index.ts",
   "dependencies": {
     "@autorelease/animated": "link:../animated",
