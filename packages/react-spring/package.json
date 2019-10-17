@@ -1,15 +1,15 @@
 {
   "name": "@autorelease/react-spring",
-  "version": "9.0.2",
+  "version": "9.0.3",
   "main": "src/web.ts",
   "dependencies": {
-    "@autorelease/addons": "^9.0.2",
-    "@autorelease/core": "^9.0.2",
-    "@autorelease/konva": "^9.0.2",
-    "@autorelease/native": "^9.0.2",
-    "@autorelease/three": "^9.0.2",
-    "@autorelease/web": "^9.0.2",
-    "@autorelease/zdog": "^9.0.2"
+    "@autorelease/addons": "^9.0.3",
+    "@autorelease/core": "^9.0.3",
+    "@autorelease/konva": "^9.0.3",
+    "@autorelease/native": "^9.0.3",
+    "@autorelease/three": "^9.0.3",
+    "@autorelease/web": "^9.0.3",
+    "@autorelease/zdog": "^9.0.3"
   },
   "scripts": {
     "build": "rollup -c"
@@ -17,5 +17,5 @@
   "publishConfig": {
     "directory": "dist"
   },
-  "gitHead": "faeb7c2f52f4fa1aeaae41669a0dc03703abbf71"
+  "gitHead": "b95e73f3bf02d969db30cadae487ad857ad745c5"
 }

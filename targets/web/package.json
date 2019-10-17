@@ -1,11 +1,11 @@
 {
   "name": "@autorelease/web",
-  "version": "9.0.2",
+  "version": "9.0.3",
   "main": "src/index.ts",
   "dependencies": {
-    "@autorelease/animated": "^9.0.2",
-    "@autorelease/core": "^9.0.2",
-    "@autorelease/shared": "^9.0.2"
+    "@autorelease/animated": "^9.0.3",
+    "@autorelease/core": "^9.0.3",
+    "@autorelease/shared": "^9.0.3"
   },
   "peerDependencies": {
     "react": ">=16.8",
@@ -22,5 +22,5 @@
   "publishConfig": {
     "directory": "dist"
   },
-  "gitHead": "faeb7c2f52f4fa1aeaae41669a0dc03703abbf71"
+  "gitHead": "b95e73f3bf02d969db30cadae487ad857ad745c5"
 }
