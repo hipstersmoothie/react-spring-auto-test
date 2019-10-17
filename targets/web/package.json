@@ -1,6 +1,6 @@
 {
   "name": "@autorelease/web",
-  "version": "9.0.0-beta.33",
+  "version": "9.0.1-canary-test.1.0",
   "main": "src/index.ts",
   "dependencies": {
     "@autorelease/animated": "link:../../packages/animated",
