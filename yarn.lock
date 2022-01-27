@@ -64,63 +64,6 @@
     deepmerge "^4.0.0"
     tslib "1.10.0"
 
-"@autorelease/addons@link:packages/addons":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    use-memo-one "^1.1.0"
-
-"@autorelease/animated@link:packages/animated":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/core@link:packages/core":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/shared" "link:packages/shared"
-    use-memo-one "^1.1.0"
-
-"@autorelease/konva@link:targets/konva":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/native@link:targets/native":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/shared@link:packages/shared":
-  version "9.0.0-beta.33"
-
-"@autorelease/three@link:targets/three":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/web@link:targets/web":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/zdog@link:targets/zdog":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -9644,15 +9587,10 @@ text-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/text-extensions/-/text-extensions-2.0.0.tgz#43eabd1b495482fae4a2bf65e5f56c29f69220f6"
   integrity sha512-F91ZqLgvi1E0PdvmxMgp+gcf6q8fMH7mhdwWfzXnl1k+GbpQDmi8l7DzLC5JTASKbwpY3TfxajAUzAXcv2NmsQ==
 
-three@*:
-  version "0.109.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.109.0.tgz#611c9ef860d10bd107695cead6c6abcd2422e5fd"
-  integrity sha512-XT99T3Hvgh2CEvwPdHYEunNE+clLK6KiT1U8En7YOgIqTUw4MrLeIc8zxQAJ6wbP8hhJaY5+Cff3jwBPpBa0gA==
-
-three@~0.104.0:
-  version "0.104.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.104.0.tgz#9ad1da492153b753a89e0df066631215bd9d9087"
-  integrity sha512-q617IMBC5k40U2E9UC4/LtmhzTOOLB1jGMIooUL+QrhZ7abiGCSDrKrpCDt9V8RTl6xw+0FYfA1PYsIPKbQOgg==
+three@*, three@~0.137.0:
+  version "0.137.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.137.0.tgz#0ebd6ba66637a332c31f234bcdd35aeec071a6e3"
+  integrity sha512-rzSDhia6cU35UCy6y+zEEws6vSgytfHqFMSaBvUcySgzwvDO6vETyswtSNi/+aVqJw8WLMwyT1mlQQ1T/dxxOA==
 
 throat@^4.0.0, throat@^4.1.0:
   version "4.1.0"
