@@ -64,63 +64,6 @@
     deepmerge "^4.0.0"
     tslib "1.10.0"
 
-"@autorelease/addons@link:packages/addons":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    use-memo-one "^1.1.0"
-
-"@autorelease/animated@link:packages/animated":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/core@link:packages/core":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/shared" "link:packages/shared"
-    use-memo-one "^1.1.0"
-
-"@autorelease/konva@link:targets/konva":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/native@link:targets/native":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/shared@link:packages/shared":
-  version "9.0.0-beta.33"
-
-"@autorelease/three@link:targets/three":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/web@link:targets/web":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
-"@autorelease/zdog@link:targets/zdog":
-  version "9.0.0-beta.33"
-  dependencies:
-    "@autorelease/animated" "link:packages/animated"
-    "@autorelease/core" "link:packages/core"
-    "@autorelease/shared" "link:packages/shared"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -3621,9 +3564,9 @@ decamelize@^1.1.0, decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 dedent@^0.7.0:
   version "0.7.0"
